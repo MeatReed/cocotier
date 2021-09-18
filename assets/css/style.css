@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: courier, monospace;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+#chat {
+  height: 200px;
+}
+
+#boite_de_dialog {
+  height: 200px;
+  width: 700px;
+  opacity: 100;
+  text-align: left;
+}
+
+.dialogCard {
+  height: 200px;
+  width: 800px;
+  text-align: left;
+}
+
+.container {
+  opacity: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+#carre_jeu {
+  background-color: rgb(41, 116, 160);
+  width: 50px;
+  height: 50px;
+}
+
+#boite {
+  z-index: 1000000 !important;
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -30%);
+  border: 1px solid white;
+  display: none;
+}
+
+.guide {
+  text-align: center !important;
+  position: absolute;
+}
+
+#score_holder {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
